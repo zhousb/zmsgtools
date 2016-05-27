@@ -160,7 +160,7 @@ public final class CryptoUtils {
 		
 	public static void main(String args[]){
 
-		String str1 = encrypt("Admin@1234");
+		String str1 = encrypt("Admin@1234eeee");
 		System.out.println(str1);	
 		System.out.println(decrypt(str1));
 	}
